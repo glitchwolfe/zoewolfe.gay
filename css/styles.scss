@@ -1,0 +1,144 @@
+$font-color:     #f0ecf2;
+$font-secondary: #6c3b7b;
+
+@import 'reflex.scss';
+@import 'loading.scss';
+@import 'navigation.scss';
+@import 'animate.scss';
+@import 'gallery.scss';
+@import 'projects.scss';
+
+@font-face {
+	font-family: 'Inconsolata';
+	src: url('https://fonts.googleapis.com/css?family=Inconsolata');
+	font-weight: normal;
+	font-style:  normal;
+}
+
+@font-face {
+	font-family: 'Roboto Mono';
+	src: url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+	font-weight: normal;
+	font-style:  normal;
+}
+
+html{
+	height: 100%;
+}
+
+body {
+	background-color: #2f2d2f;
+	background-image: url(/images/art/lastones-fog.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	min-height: 100%;
+
+	margin: 0;
+	padding-bottom: 3em;
+	position: relative;
+
+	color: $font-color;
+	font-family: 'Inconsolata', monospace;
+	-webkit-font-smoothing: antialiased;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a, a:visited {
+	color: $font-color;
+
+	-webkit-transition: color 0.3s; /* Safari */
+			transition: color 0.3s;
+
+	&:hover{
+		color: $font-secondary;
+	}
+}
+
+h1, h2, h3, h4 {
+	font-weight: normal;
+	font-family: 'Roboto Mono', monospace;
+}
+
+h3, h4 {
+	margin-top: 0;
+}
+
+p {
+	margin-top: 0;
+	line-height: 1.5;
+}
+
+hr {
+	border-top: 1px solid #eee;
+	margin-bottom: 1em;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.content{
+	width:     100%;
+	margin:    0 auto;
+	overflow:  hidden;
+}
+
+.container{
+	max-width: 1200px;
+
+	// Terminal Window BG
+	&.content{
+		background:    rgba(12, 12, 12, 0.9);
+		box-shadow:    0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+		border-radius: 0 0 5px 5px;
+
+		margin-bottom: 2em;
+	}
+}
+
+.statusbar{
+	color:          #000;
+	min-height:     21px;
+	padding-top:    5px;
+	padding-bottom: 5px;
+	display:        block;
+	box-shadow:     #f1f1f1 0 1px inset;
+	background:     linear-gradient(#e4e4e4, #b8b7b8);
+	border-radius:  4px 4px 0 0;
+}
+
+#about {
+	h2 {
+		margin-top: 0;
+	}
+
+	.about-content{
+		padding:     15px 0;
+		font-size:   16px;
+		line-height: 1.75;
+	}
+}
+
+
+.avatar {
+	display: flex;
+	justify-self: center;
+	align-self: center;
+}
+
+#links{
+	padding-bottom: 45px; // Height of footer + 15px
+
+	a {
+		text-decoration: underline;
+		line-height: 2;
+	}
+}

@@ -1,0 +1,81 @@
+.animated {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+@mixin gitchText($offset, $text) {
+  content: $text;
+  position: absolute;
+  left: $offset;
+  top: $offset;
+  clip: rect(0, 900px, 0, 0);
+  animation: glitch 3s infinite alternate-reverse;
+  animation-delay: 4s;
+}
+
+@keyframes glitch {
+  $steps: 20;
+  @for $i from 0 through $steps{
+    #{percentage($i * (1 / $steps))}{
+      clip: rect(random(100)+px, 9999px, random(100)+px, 0);
+    }
+  }
+}
+
+/* Fade In */
+@keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadein;
+          animation-name: fadein;
+}
+
+/* Fade Out */
+@keyframes fadeout {
+	from { opacity: 1; }
+  to   { opacity: 0; }
+}
+
+.fadeout {
+  -webkit-animation-name: fadeout;
+          animation-name: fadeout;
+}
+
+/* Fade In, then down */
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+          animation-name: fadeInDown;
+}

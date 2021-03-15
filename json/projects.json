@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Sprites and Dice",
+		"icon": "/images/portfolio/snd_logo.png",
+		"link": "http://www.spritesanddice.com/",
+		"code": "https://github.com/Sprites-and-Dice/"
+	},
+	{
+		"name": "The Gem Exchange",
+		"icon": "/images/portfolio/gemexchange.png",
+		"link": "http://thegemexchange.net/",
+		"code": "https://github.com/gemex-cms/"
+	},
+	{
+		"name": "Audacity Glitcher",
+		"icon": "/images/portfolio/audacity-icon.png",
+		"link": "https://github.com/zoboe/audacity-glitcher/",
+		"code": "https://github.com/zoboe/audacity-glitcher/"
+	},
+	{
+		"name": "My GitHub Page",
+		"icon": "/images/portfolio/github_logo.png",
+		"link": "https://github.com/zoboe/",
+		"code": "https://github.com/zoboe/"
+	}
+]

@@ -1,0 +1,28 @@
+// Loading Screen Styles (this is a .less backup of what's on index.html)
+.loading {
+  opacity: 0;
+  transition: opacity .8s ease-in-out;
+
+  position: fixed;
+  height:   100%;
+  width:    100%;
+
+  top:  0;
+  left: 0;
+
+  background: #000;
+
+  .loading-content{
+    position: absolute;
+    top: 50%;
+
+    width: 100%;
+    text-align: center;
+    transform: translate(0, -50%);
+  }
+}
+
+app-root:empty + .loading {
+  opacity: 1;
+  z-index: 100;
+}
