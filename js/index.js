@@ -107,29 +107,25 @@ const artGallery = {
 const gameboyGallery = {
 	init: (selector) => {
 		let images = [
-			'/images/gameboycamera/photo_20_purp.png',
-			'/images/gameboycamera/photo_16_bro.png',
-			'/images/gameboycamera/gb_04_c.png',
-			'/images/gameboycamera/ghosty_1.png',
-			'/images/gameboycamera/Gradient Map 1(2).png',
-			'/images/gameboycamera/photo_7_gb.png',
-			// '/images/gameboycamera/photo_7_purp.png',
-			'/images/gameboycamera/photo_27_pink.png',
+			'/images/gameboycamera/t_rex_3d.png',			
+			'/images/gameboycamera/goth_fireplace_b.png',
+			'/images/gameboycamera/raccoon_skull_glitch.png',
+			
+			'/images/gameboycamera/crow_blossoms.png',
+			'/images/gameboycamera/cat_skull_a.png',
+			'/images/gameboycamera/raccoon_skull_glass.png',
+			
+			'/images/gameboycamera/wolfe_skull_b.png',
+			'/images/gameboycamera/camellia.png',
+			'/images/gameboycamera/cat_skull_b.png',
+			
+			'/images/gameboycamera/crow_flight_purple.png',
+			'/images/gameboycamera/cat_skull_c.png',
 			'/images/gameboycamera/birbhouse.png',
-			'/images/gameboycamera/raccoon_1.png',
-			'/images/gameboycamera/treez.png',
-			'/images/gameboycamera/photo_27_green.png',
-			'/images/gameboycamera/photo_23_bro.png',
-			'/images/gameboycamera/photo_19_pink.png',
-			'/images/gameboycamera/photo_25_pink.png',
-			// '/images/gameboycamera/stairs.png',
-			// '/images/gameboycamera/3tree.png',
-			'/images/gameboycamera/ghost-1.png',
-			// '/images/gameboycamera/photo_13.png',
-			// '/images/gameboycamera/photo_16_blu.png',
-			// '/images/gameboycamera/photo_16_purp.png',
-			// '/images/gameboycamera/photo_16.png',
-			// '/images/gameboycamera/trees.png',
+			
+			'/images/gameboycamera/zoe_portrait_a.png',
+			'/images/gameboycamera/photo_16_blu.png',
+			'/images/gameboycamera/wolfe_skull_a.png',
 		];
 		let html = '';
 		for (let image of images){
