@@ -14,13 +14,13 @@
 	{
 		"name": "Audacity Glitcher",
 		"icon": "/images/portfolio/audacity-icon.png",
-		"link": "https://github.com/zoboe/audacity-glitcher/",
-		"code": "https://github.com/zoboe/audacity-glitcher/"
+		"link": "https://github.com/glitchwolfe/audacity-glitcher/",
+		"code": "https://github.com/glitchwolfe/audacity-glitcher/"
 	},
 	{
 		"name": "My GitHub",
 		"icon": "/images/portfolio/github_logo.png",
-		"link": "https://github.com/zoboe/",
-		"code": "https://github.com/zoboe/"
+		"link": "https://github.com/glitchwolfe/",
+		"code": "https://github.com/glitchwolfe/"
 	}
 ]
