@@ -107,25 +107,54 @@ const artGallery = {
 const gameboyGallery = {
 	init: (selector) => {
 		let images = [
-			'/images/gameboycamera/t_rex_3d.png',			
-			'/images/gameboycamera/goth_fireplace_b.png',
-			'/images/gameboycamera/raccoon_skull_glitch.png',
-			
-			'/images/gameboycamera/crow_blossoms.png',
-			'/images/gameboycamera/cat_skull_a.png',
-			'/images/gameboycamera/raccoon_skull_glass.png',
-			
-			'/images/gameboycamera/wolfe_skull_b.png',
-			'/images/gameboycamera/camellia.png',
-			'/images/gameboycamera/cat_skull_b.png',
-			
-			'/images/gameboycamera/crow_flight_purple.png',
-			'/images/gameboycamera/cat_skull_c.png',
-			'/images/gameboycamera/birbhouse.png',
-			
-			'/images/gameboycamera/zoe_portrait_a.png',
-			'/images/gameboycamera/photo_16_blu.png',
-			'/images/gameboycamera/wolfe_skull_a.png',
+			'/images/gameboycamera/gifs/raccoon_bite.gif',			
+			'/images/gameboycamera/gifs/glitch_girl_camera.gif',			
+			'/images/gameboycamera/photos/splodin_skeleton.png',
+
+			'/images/gameboycamera/gifs/crow_dancing.gif',			
+			'/images/gameboycamera/gifs/furby_eye.gif',			
+			'/images/gameboycamera/gifs/glitch_witch_raccoon.gif',	
+
+			'/images/gameboycamera/gifs/furby_sees_all.gif',			
+			'/images/gameboycamera/gifs/raccoon_lunge.gif',			
+			'/images/gameboycamera/gifs/glitch_witch_shapes.gif',
+
+			'/images/gameboycamera/gifs/snowfall.gif',
+			'/images/gameboycamera/gifs/crab_friend_loves_you.gif',
+			'/images/gameboycamera/photos/babboon_tooth.png',
+
+			'/images/gameboycamera/photos/beach_tide.png',
+			'/images/gameboycamera/gifs/spinny_skull.gif',
+			'/images/gameboycamera/photos/human_skull_glitch.png',
+
+			'/images/gameboycamera/photos/mountain_friendos.png',
+			'/images/gameboycamera/photos/peace.png',
+			'/images/gameboycamera/gifs/crow_flock.gif',
+			'/images/gameboycamera/photos/fox.png',
+			'/images/gameboycamera/photos/bidoof.png',
+
+			'/images/gameboycamera/photos/rat_fucko.png',
+			'/images/gameboycamera/photos/planter.png',
+
+			'/images/gameboycamera/photos/crt.png',
+			'/images/gameboycamera/photos/eye.png',
+			'/images/gameboycamera/photos/wolfe_jaw.png',
+
+			'/images/gameboycamera/photos/blood_bird.png',
+			'/images/gameboycamera/photos/swing.png',
+			'/images/gameboycamera/photos/graves.png',
+
+			'/images/gameboycamera/photos/ollie.png',
+			'/images/gameboycamera/gifs/traffic.gif',
+			'/images/gameboycamera/gifs/crow_takeoff.gif',
+
+			'/images/gameboycamera/photos/spine_flower.png',
+			'/images/gameboycamera/photos/trex.png',
+			'/images/gameboycamera/photos/psx_controller.png',
+
+			'/images/gameboycamera/photos/birds.png',
+			'/images/gameboycamera/photos/raccoon_skull_glitch.png',
+			'/images/gameboycamera/photos/sunset_tree.png',
 		];
 		let html = '';
 		for (let image of images){
