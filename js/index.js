@@ -144,9 +144,10 @@ const gameboyGallery = {
 			'/images/gameboycamera/photos/swing.png',
 			'/images/gameboycamera/photos/graves.png',
 			'/images/gameboycamera/photos/hill_house.png',
-
+			
 			'/images/gameboycamera/photos/ollie.png',
 			'/images/gameboycamera/gifs/traffic.gif',
+			'/images/gameboycamera/gifs/venus.gif',
 			'/images/gameboycamera/gifs/crow_takeoff.gif',
 
 			'/images/gameboycamera/photos/spine_flower.png',
