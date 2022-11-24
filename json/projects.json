@@ -1,26 +1,39 @@
 [
 	{
-		"name": "Sprites and Dice",
-		"icon": "/images/portfolio/snd_logo.png",
-		"link": "http://www.spritesanddice.com/",
-		"code": "https://github.com/Sprites-and-Dice/"
+		"name": "GitHub",
+		"icon": "fab fa-github",
+		"link": "https://github.com/glitchwolfe/"
 	},
 	{
-		"name": "The Gem Exchange",
-		"icon": "/images/portfolio/gemexchange.png",
-		"link": "http://thegemexchange.net/",
-		"code": "https://github.com/gemex-cms/"
+		"name": "Twitter",
+		"icon": "fab fa-twitter",
+		"link": "https://twitter.com/glitch_wolfe"
 	},
 	{
-		"name": "Audacity Glitcher",
-		"icon": "/images/portfolio/audacity-icon.png",
-		"link": "https://github.com/glitchwolfe/audacity-glitcher/",
-		"code": "https://github.com/glitchwolfe/audacity-glitcher/"
+		"name": "Instagram",
+		"icon": "fab fa-instagram",
+		"link": "https://www.instagram.com/glitch_wolfe/"
 	},
 	{
-		"name": "My GitHub",
-		"icon": "/images/portfolio/github_logo.png",
-		"link": "https://github.com/glitchwolfe/",
-		"code": "https://github.com/glitchwolfe/"
+		"name": "Ko-Fi",
+		"icon": "fa fa-coffee",
+		"link": "https://ko-fi.com/glitch_wolfe"
+	},
+	{
+		"name": "Cohost",
+		"icon": "fa-solid fa-egg",
+		"link": "https://cohost.org/glitchwolfe"
+	},
+	{
+		"name": "Mastodon",
+		"icon": "fab fa-mastodon",
+		"link": "https://glitch.lgbt/@glitch_wolfe"
+	},
+	{
+		"name": "Email",
+		"icon": "fa fa-envelope",
+		"link": "mailto:zoe+portfolio@glitchwolfe.studio"
 	}
 ]
+
+

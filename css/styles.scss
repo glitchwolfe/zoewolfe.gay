@@ -22,6 +22,13 @@ $font-secondary: #6c3b7b;
 	font-style:  normal;
 }
 
+@font-face {
+	font-family: 'VCR';
+	src: url('/fonts/Zoe_VCR_Regular_v0.1f.ttf');
+	font-weight: normal;
+	font-style:  normal;
+}
+
 html{
 	height: 100%;
 }
@@ -39,7 +46,7 @@ body {
 	position: relative;
 
 	color: $font-color;
-	font-family: 'Inconsolata', monospace;
+	font-family: 'VCR','Inconsolata', monospace;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -61,7 +68,7 @@ a, a:visited {
 
 h1, h2, h3, h4 {
 	font-weight: normal;
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'VCR','Roboto Mono', monospace;
 }
 
 h3, h4 {

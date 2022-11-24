@@ -18,7 +18,7 @@ const codeGallery = {
 		return `
 			<div class="icon-column">
 			 	<a class="project-icon" target="_blank" href="${href}">
-					<img src="${img}">
+					<i class="${img}"></i>
 				</a>
 				<a class="project-title" target="_blank" href="${href}">
 					<h4>${name}</h4>
@@ -148,6 +148,7 @@ const gameboyGallery = {
 			'/images/gameboycamera/photos/ollie.png',
 			'/images/gameboycamera/gifs/traffic.gif',
 			'/images/gameboycamera/gifs/venus.gif',
+			'/images/gameboycamera/gifs/fourby.gif',
 			'/images/gameboycamera/gifs/crow_takeoff.gif',
 
 			'/images/gameboycamera/photos/spine_flower.png',
@@ -157,6 +158,8 @@ const gameboyGallery = {
 			'/images/gameboycamera/photos/birds.png',
 			'/images/gameboycamera/photos/raccoon_skull_glitch.png',
 			'/images/gameboycamera/photos/sunset_tree.png',
+
+			'/images/gameboycamera/gifs/crt_spin.gif',
 		];
 		let html = '';
 		for (let image of images){
