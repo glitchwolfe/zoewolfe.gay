@@ -1,6 +1,6 @@
 const codeGallery = {
 	init: (selector) => {
-		$.getJSON('/json/projects.json', function(projects){
+		$.getJSON('/json/links.json', function(projects){
 			let html = '';
 			for (let project of projects){
 				html += `
