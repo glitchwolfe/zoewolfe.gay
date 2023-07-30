@@ -1,8 +1,18 @@
 [
 	{
-		"name": "GitHub",
-		"icon": "fab fa-github",
-		"link": "https://github.com/glitchwolfe/"
+		"name": "YouTube",
+		"icon": "fab fa-youtube",
+		"link": "https://www.youtube.com/@glitchwolfe"
+	},
+	{
+		"name": "itch.io",
+		"icon": "fab fa-itch-io",
+		"link": "https://glitch-wolfe.itch.io/"
+	},
+	{
+		"name": "BlueSky",
+		"icon": "fa fa-cloud",
+		"link": "https://bsky.app/profile/glitchwolfe.bsky.social"
 	},
 	{
 		"name": "Twitter",
@@ -20,6 +30,11 @@
 		"link": "https://ko-fi.com/glitch_wolfe"
 	},
 	{
+		"name": "Patreon",
+		"icon": "fab fa-patreon",
+		"link": "https://www.patreon.com/glitch_wolfe"
+	},
+	{
 		"name": "Cohost",
 		"icon": "fa-solid fa-egg",
 		"link": "https://cohost.org/glitchwolfe"
@@ -28,6 +43,11 @@
 		"name": "Mastodon",
 		"icon": "fab fa-mastodon",
 		"link": "https://glitch.lgbt/@glitch_wolfe"
+	},
+	{
+		"name": "GitHub",
+		"icon": "fab fa-github",
+		"link": "https://github.com/glitchwolfe/"
 	},
 	{
 		"name": "Email",
