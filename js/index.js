@@ -194,6 +194,101 @@ const gameboyGallery = {
 	}
 }
 
+const waveGallery = {
+	init: (selector) => {
+		$.getJSON('/json/waves.json?v=2', function(waves){
+			console.log("WAVES", waves);
+			let html = '';
+			for (let wave of waves.reverse()){
+				html += `
+						<div class="grid about">
+							<div class="col-12" style="text-align:center;">
+								<h2 style="font-size:36px; margin:1em auto;">${wave.name} (${wave.year})</h2>
+							</div>
+						</div>
+						<div class="grid about wave">
+
+							<div class="col-12 col-sm-4 poster-col">
+								<div class="grid">	
+									<div class="col-12">
+										<a href="${wave.link}" target="_blank">
+											<img class="poster" title="${wave.name} Poster" src="/images/waves/${wave.poster}">
+										</a>
+									</div>
+								</div>	
+							</div>
+
+							<div class="col-12 col-sm-auto hidden-xs-down">
+								<div class="grid">
+									<div class="col-12" style="text-align:center;">
+										${waveGallery.youtubeEmbed(wave.embed)}
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						${waveGallery.archive(wave.archive)}
+				`;
+			}
+			$(selector).html(html);
+		});
+	},
+	archive: (link) => {
+		let html = `
+			<div class="grid about">
+				<div class="col-12" style="text-align:center;">
+					<h3>Full project available <a href="${link}" target="_blank">here</a></h3>
+				</div>
+			</div>
+		`;
+		if(link){
+			return html;
+		}
+		else{
+			return "";
+		}
+	},
+	embed: (link) => {
+		if(link.includes("youtube")){
+			return waveGallery.youtubeEmbed(link);
+		}
+		if(link.includes("drive.google.com")){
+			return waveGallery.driveEmbed(link);
+		}
+		else {
+			return "NO EMBED";
+		}
+	},
+	driveEmbed: (link) => {
+		let html = `
+			<iframe 
+				src="${link}" 
+				width="711px" 
+				height="400px" 
+				allow="autoplay">
+			</iframe>
+		`;
+		return(html);
+	},
+	youtubeEmbed: (link) => {
+		let html = `
+			<iframe 
+				src="${link}"
+				style="border:0px #ffffff none;" 
+				name="segFrame" 
+				scrolling="no" 
+				frameborder="0" 
+				marginheight="0px" 
+				marginwidth="0px" 
+				width="711px" 
+				height="400px" 
+				allowfullscreen>
+			</iframe>
+		`;
+		return(html);
+	},
+}
+
 function showHideNav(){
 
 }
@@ -202,4 +297,5 @@ $(document).ready(() => {
 	codeGallery.init('#project-gallery');
 	artGallery.init('#art-gallery .masonry-grid');
 	gameboyGallery.init('#gameboy-gallery .masonry-grid');
+	waveGallery.init('#wave-gallery .masonry-grid');
 });

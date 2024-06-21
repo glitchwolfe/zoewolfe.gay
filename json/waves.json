@@ -1,0 +1,92 @@
+[
+	{
+		"name":    "Magnolia Remastered",
+		"poster":  "magnoliaremastered-poster.jpg",
+		"embed":   "https://www.youtube.com/embed/XVwtaI2kyLQ",
+        "link":    "https://www.youtube.com/watch?v=XVwtaI2kyLQ",
+        "archive": "https://www.youtube.com/playlist?list=PLLciMA25eqW8SDzM4-j7zkJEhFN1XRDep",
+        "year":    "2022"
+	},
+    {
+		"name":   "Stop MMMaking Sense",
+		"poster": "stopmmmakingsense-poster.jpg",
+		"embed":  "https://www.youtube.com/embed/SF3NUwZ19Kk",
+        "link":   "https://www.youtube.com/watch?v=SF3NUwZ19Kk",
+        "year":   "2023"
+	},
+    {
+		"name":   "POINT &lt;BR&gt;",
+		"poster": "pb-poster.jpg",
+		"embed":  "https://www.youtube.com/embed/xfvauLrMaEI",
+        "link":   "https://www.youtube.com/watch?v=xfvauLrMaEI",
+        "year":   "2023"
+	},
+    {
+		"name":   "MK Ultra",
+		"poster": "mkultra-poster.jpg",
+		"embed":  "https://www.youtube.com/embed/egxQVUikbrg",
+        "link":   "https://www.youtube.com/watch?v=egxQVUikbrg",
+        "year":   "2023"
+	},
+    {
+		"name":   "Lost High.WAV",
+		"poster": "lhw-poster.jpg",
+		"embed":  "https://www.youtube.com/embed/QvjpHkaEVGU",
+        "link":   "https://www.youtube.com/watch?v=QvjpHkaEVGU",
+        "year":   "2023"
+	},
+    {
+		"name":   "SkrillEx Machina",
+		"poster": "sxm-poster.jpg",
+		"embed":  "https://www.youtube.com/embed/dU-ySh7AuKY",
+        "link":   "https://www.youtube.com/watch?v=dU-ySh7AuKY",
+        "year":   "2023"
+	},
+    {
+		"name":    "TNK_GRL",
+		"poster":  "tnkgrl-poster.jpg",
+		"embed":   "https://www.youtube.com/embed/TWC11oXOyio",
+        "link":    "https://www.youtube.com/watch?v=TWC11oXOyio",
+        "archive": "https://archive.org/details/tnkgrlv-3",
+        "year":    "2023"
+	},
+    {
+		"name":    "CMD+0",
+		"poster":  "cmd0-poster.png",
+		"embed":   "https://www.youtube.com/embed/jgKHljOP-hk",
+        "link":    "https://www.youtube.com/watch?v=jgKHljOP-hk",
+        "archive": "https://archive.org/details/cmd_0",
+        "year":    "2023"
+	},
+    {
+		"name":    "Ma~",
+		"poster":  "ma-poster.jpg",
+		"embed":   "https://www.youtube.com/embed/Sj5Lywt_fig",
+        "link":    "https://www.youtube.com/watch?v=Sj5Lywt_fig",
+        "archive": "https://archive.org/details/ma-v-1",
+        "year":    "2023"
+	},
+    {
+		"name":   "Sunnamarink",
+		"poster": "sunnamarink-poster.jpg",
+		"embed":  "https://www.youtube.com/embed/OFDViVpbdFY",
+        "link":   "https://www.youtube.com/watch?v=OFDViVpbdFY",
+        "year":   "2023"
+	},
+    {
+		"name":   "Pokemon: The Lo-First Movie",
+		"poster": "pkmn-poster.jpg",
+		"embed":  "https://drive.google.com/file/d/1bzw7V56v6VuhTsTXOArVf_SeKKwvHN90/preview",
+		"link":   "https://drive.google.com/file/d/1bzw7V56v6VuhTsTXOArVf_SeKKwvHN90/preview",
+        "year":   "2024"
+	},
+    {
+		"name":   "Naprika",
+		"poster": "naprika-poster.jpg",
+		"embed":  "https://www.youtube.com/embed/7QkA9Zjzxos",
+        "link":   "https://www.youtube.com/watch?v=7QkA9Zjzxos",
+        "year":   "2024"
+	}
+]
+
+

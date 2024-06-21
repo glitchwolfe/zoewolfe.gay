@@ -35,7 +35,8 @@ html{
 
 body {
 	background-color: #2f2d2f;
-	background-image: url(/images/art/lastones-fog.jpg);
+	// background-image: url(/images/art/lastones-fog.jpg);
+	background-image: url(/images/backgrounds/snowleopard-glitched.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -78,6 +79,7 @@ h3, h4 {
 p {
 	margin-top: 0;
 	line-height: 1.5;
+	font-family: "Inconsolata",monospace;
 }
 
 hr {
@@ -139,6 +141,34 @@ ul {
 	display: flex;
 	justify-self: center;
 	align-self: center;
+}
+
+.poster {
+	display: flex;
+	justify-self: center;
+	align-self: center;
+	max-height: 400px;
+	margin: 0 auto 1em;
+}
+
+a .poster:hover{
+	box-shadow:    0 3px 15px rgba(255,255,255,0.16), 0 3px 15px rgba(255,255,255,0.23);
+}
+
+.poster-col {
+	align-content:   center;
+	justify-content: center;
+	text-align:      center;
+}
+
+img.sprites-and-dice-icon {
+	background: #f9f9f9;
+	border-radius: 16px;
+	box-shadow: 1px 1px 5px rgba(0,0,0,.4);
+	margin-bottom: 5px;
+	transition: background 0.2s ease;
+	padding: 1em;
+	max-height: 300px;
 }
 
 #links{
