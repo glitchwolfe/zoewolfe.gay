@@ -1,0 +1,19 @@
+[
+	{
+		"name": "Games",
+		"icon": "fa fa-gamepad",
+		"link": "/games"
+	},
+	{
+		"name": "Music",
+		"icon": "fa fa-headphones",
+		"link": "/music"
+	},
+	{
+		"name": "Waves",
+		"icon": "fa fa-tv",
+		"link": "/waves"
+	}
+]
+
+

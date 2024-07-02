@@ -42,6 +42,36 @@ const codeGallery = {
 	}
 }
 
+const portfolioGallery = {
+	init: (selector) => {
+		$.getJSON('/json/portfolio.json?v=2', function(projects){
+			let html = '';
+			for (let project of projects){
+				html += `
+				<div class="col-4 col-md-2 project">
+					<div class="project-container">
+						${codeGallery.icon(project.name, project.icon, project.link)}
+					</div>
+				</div>
+				`;
+			}
+			$(selector).html(html);
+		});
+	},
+	icon: (name, img, href) => {
+		return `
+			<div class="icon-column">
+			 	<a class="project-icon" href="${href}">
+					<i class="${img}"></i>
+				</a>
+				<a class="project-title" href="${href}">
+					<h4>${name}</h4>
+				</a>
+			</div>
+		`;
+	}
+}
+
 const artGallery = {
 	init: (selector) => {
 		let images = [
@@ -295,6 +325,7 @@ function showHideNav(){
 
 $(document).ready(() => {
 	codeGallery.init('#project-gallery');
+	portfolioGallery.init('#portfolio-gallery');
 	artGallery.init('#art-gallery .masonry-grid');
 	gameboyGallery.init('#gameboy-gallery .masonry-grid');
 	waveGallery.init('#wave-gallery .masonry-grid');
