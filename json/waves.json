@@ -86,6 +86,13 @@
 		"embed":  "https://www.youtube.com/embed/7QkA9Zjzxos",
         "link":   "https://www.youtube.com/watch?v=7QkA9Zjzxos",
         "year":   "2024"
+	},
+	{
+		"name":   "Fight Clüb",
+		"poster": "fight-club-poster.jpg",
+		"embed":  "https://www.youtube.com/embed/nYKQkvB6Qoc",
+        "link":   "https://www.youtube.com/watch?v=nYKQkvB6Qoc",
+        "year":   "2024"
 	}
 ]
 
