@@ -17,10 +17,10 @@ const codeGallery = {
 	icon: (name, img, href) => {
 		return `
 			<div class="icon-column">
-			 	<a class="project-icon" target="_blank" href="${href}">
+			 	<a class="project-icon" href="${href}">
 					<i class="${img}"></i>
 				</a>
-				<a class="project-title" target="_blank" href="${href}">
+				<a class="project-title" href="${href}">
 					<h4>${name}</h4>
 				</a>
 			</div>
