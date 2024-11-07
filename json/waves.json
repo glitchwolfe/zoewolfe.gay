@@ -93,6 +93,13 @@
 		"embed":  "https://www.youtube.com/embed/nYKQkvB6Qoc",
         "link":   "https://www.youtube.com/watch?v=nYKQkvB6Qoc",
         "year":   "2024"
+	},
+	{
+		"name":   "In A Vibrant Nature",
+		"poster": "iavn-poster.jpg",
+		"embed":  "https://www.youtube.com/embed/3zYqjARrvW0",
+        "link":   "https://www.youtube.com/watch?v=3zYqjARrvW0",
+        "year":   "2024"
 	}
 ]
 
