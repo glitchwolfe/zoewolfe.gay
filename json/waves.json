@@ -100,6 +100,34 @@
 		"embed":  "https://www.youtube.com/embed/3zYqjARrvW0",
         "link":   "https://www.youtube.com/watch?v=3zYqjARrvW0",
         "year":   "2024"
+	},
+	{
+		"name":   "ANML.FM",
+		"poster": "ANML_FM_Poster.png",
+		"embed":  "https://www.youtube.com/embed/74jOBSu1GxE",
+        "link":   "https://www.youtube.com/watch?v=74jOBSu1GxE",
+        "year":   "2024"
+	},
+	{
+		"name":   "SORC3RR0R",
+		"poster": "sorcerror-poster.jpg",
+		"embed":  "https://www.youtube.com/embed/2S14YuV9HmM",
+        "link":   "https://www.youtube.com/watch?v=2S14YuV9HmM",
+        "year":   "2024"
+	},
+	{
+		"name":   "T2: Grudgement Day",
+		"poster": "grudgement-day-poster.jpg",
+		"embed":  "https://www.youtube.com/embed/meCHh7TyAqw",
+        "link":   "https://www.youtube.com/watch?v=meCHh7TyAqw",
+        "year":   "2025"
+	},
+	{
+		"name":   "We Make the TV Glow",
+		"poster": "wmttg-poster.jpg",
+		"embed":  "https://www.youtube.com/embed/P4_NMOLTlx8",
+        "link":   "https://www.youtube.com/watch?v=P4_NMOLTlx8",
+        "year":   "2025"
 	}
 ]
 
