@@ -226,7 +226,7 @@ const gameboyGallery = {
 
 const waveGallery = {
 	init: (selector) => {
-		$.getJSON('/json/waves.json?v=2', function(waves){
+		$.getJSON('/json/waves.json?v=5', function(waves){
 			console.log("WAVES", waves);
 			let html = '';
 			for (let wave of waves.reverse()){
@@ -251,7 +251,7 @@ const waveGallery = {
 							<div class="col-12 col-sm-auto hidden-xs-down">
 								<div class="grid">
 									<div class="col-12" style="text-align:center;">
-										${waveGallery.youtubeEmbed(wave.embed)}
+										${waveGallery.embed(wave)}
 									</div>
 								</div>
 							</div>
@@ -278,16 +278,27 @@ const waveGallery = {
 			return "";
 		}
 	},
-	embed: (link) => {
-		if(link.includes("youtube")){
-			return waveGallery.youtubeEmbed(link);
+	embed: (wave) => {
+		if(wave.embed.includes("youtube")){
+			return waveGallery.youtubeEmbed(wave.embed);
 		}
-		if(link.includes("drive.google.com")){
-			return waveGallery.driveEmbed(link);
+		if(wave.embed.includes("drive.google.com")){
+			return waveGallery.driveEmbed(wave.embed);
+		}
+		if(wave.embed.includes(".jpg") || wave.embed.includes(".png")){
+			return waveGallery.imageEmbed(wave);
 		}
 		else {
 			return "NO EMBED";
 		}
+	},
+	imageEmbed: (wave) => {
+		let html = `
+			<a href="${wave.link}" target="_blank">
+				<img class="embedPlaceholder" title="${wave.name} Poster" src="/images/waves/${wave.embed}">
+			</a>
+		`;
+		return(html);
 	},
 	driveEmbed: (link) => {
 		let html = `
